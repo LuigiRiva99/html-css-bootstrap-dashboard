@@ -75,12 +75,18 @@ header li:not(:last-child) {
     background-image: url(./img/sidebar-bg.png);
 }
 
+
 .sidebar > * {
     height: 100%;
 }
 
 .sidebar span {
     display: none;
+}
+
+.sidebar i {
+    width: 20px;
+    padding-right: 30px;
 }
 
 @media (min-width:992px) {
@@ -97,12 +103,22 @@ header li:not(:last-child) {
 /* DASHBOARD */
 
 
-/* BENNER */
+/* BANNER */
 .banner {
     background-color: var(--color-brand);
     color: white;
     display: flex;
     flex-direction: column;
+}
+
+.plan_title{
+    display: inline-block;
+}
+.ms_badge {
+    padding: 4px 10px;
+    border-radius: 999px;
+    color: white;
+    background-color: #165BBA;
 }
 
 @media (min-width:768px) {
