@@ -10,3 +10,44 @@ ul {
 
 /* HEADER */
 
+header {
+    height: 70px;
+}
+
+.ms_mobile_logo {
+    height: 50px
+}
+
+header li:not(:last-child) {
+    display: none;
+}
+
+@media (min-width:992px) {
+    header li:not(:last-child) {
+        display: block;
+    }
+}
+
+/* MAIN */
+
+.hero {
+    height: 100vh;
+}
+
+.content_window {
+    height: 100%;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 70px;
+    height: 100%;
+    background-image: url(./img/sidebar-bg.png);
+}
+
+@media (min-width:992px) {
+    .sidebar{
+        width: 150px;
+    }
+}
