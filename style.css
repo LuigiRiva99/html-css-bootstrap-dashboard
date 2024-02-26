@@ -71,6 +71,8 @@ header li:not(:last-child) {
 
 /* DASHBOARD */
 
+
+/* BENNER */
 .banner {
     background-color: var(--color-brand);
     color: white;
@@ -84,3 +86,7 @@ header li:not(:last-child) {
         justify-content: space-between;
     }
 }
+
+/* STATISTICS */
+
+ 
