@@ -26,6 +26,31 @@ header li:not(:last-child) {
     display: none;
 }
 
+.searchbar {
+    position: relative;
+}
+
+.searchbar input {
+    padding: 10px;
+    width: 100%;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: lightgray;
+}
+
+.searchbar input:focus-visible{
+    outline: 1px solid var(--color-brand)
+}
+
+.searchbar i {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
 @media (min-width:992px) {
     header li:not(:last-child) {
         display: block;

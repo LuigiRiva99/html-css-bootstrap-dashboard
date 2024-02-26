@@ -17,14 +17,15 @@
                 <img class="d-none d-lg-block" src="./img/logo.svg" alt="">
                 <img class="d-lg-none ms_mobile_logo" src="./img/mobile-logo.png" alt="">
             </div>
-            <div class="flex-grow-1">
-                Search
+            <div class="flex-grow-1 searchbar">
+                <input type="text" name="search" placeholder="Prova a cercare: Lezioni di Laravel">
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <ul class="d-flex mb-0 flex-shrink-0">
-                <li>a</li>
-                <li>a</li>
-                <li>a</li>
-                <li>B</li>
+            <ul class="d-flex mb-0 ps-3 flex-shrink-0 gap-3">
+                <li><i class="fa-solid fa-list-ul"></i></li>
+                <li><i class="fa-solid fa-circle-info"></i></li>
+                <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                <li><i class="fa-solid fa-bell text-warning"></i></li>
             </ul>
         </header>
         
@@ -73,7 +74,7 @@
 
                     <!-- STATISTICS -->
                     <section class="flex-grow-1 p-3">
-                        <div>
+                        <div class="container-fluid">
                             <div class="row">
                                 <div class="col-12 col-lg-8">Lorem.</div>
                                 <div class="col-12 col-lg-4">Lorem.</div>
