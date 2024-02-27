@@ -147,4 +147,24 @@ header li:not(:last-child) {
 
 /* STATISTICS */
 
- 
+/* TABLE */
+
+.table_classes {
+    width: 70%;
+}
+
+tr > *:not(:first-child) {
+    text-align: center;
+}
+
+tr > * {
+    width: 100%;
+}
+
+.ms_code {
+    background-color: #F26551;
+    padding: 7px 5px 5px 5px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    color: white;
+}
