@@ -63,22 +63,79 @@
 
                     <!-- BANNER -->
                     <div class="banner flex-shrink-0 p-3">
-                        <div class="">
+                        <div class="banner_items">
                             <h3 class="plan_title">Boolean</h3>
                             <span class="ms_badge">Piano blaze</span>
                             <div class="mt-2">
                                 <span class="ms_badge">3 app</span>
                                 <i class="fa-solid fa-angles-right"></i>
-                                <span class="ms_badge">Boolean mobile app</span>
-                                <span class="ms_badge">Boolean web app</span>
-                                <span class="ms_badge">Boolean blog app</span>
+                                <span class="ms_badge d-lg-none">+</span>
+                                <span class="ms_badge d-none d-lg-inline-block">Boolean mobile app</span>
+                                <span class="ms_badge d-none d-lg-inline-block">Boolean web app</span>
+                                <span class="ms_badge d-none d-lg-inline-block">Boolean blog app</span>
                             </div>
                         </div>
-                        <div class="">
-                            <p>Studenti online negli ultimi 30 minuti</p>
+                        <div class="banner_items">
+                            <p class="m-0">Studenti online negli ultimi 30 minuti</p>
                             <p class="h3">125</p>
                         </div>
-                        <div class="">Nuovo Studente</div>
+                        <div  class="banner_items d-flex">
+                            <div class="me-3">Nuovo Studente</div>
+                            <button class="btn btn-outline-light ms_plus_btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                            <div class="offcanvas offcanvas-end w-100 w-lg-50" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                          <label for="inputname" class="form-label">Nome</label>
+                                          <input type="email" class="form-control" id="inputname">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputsurname" class="form-label">Cognome</label>
+                                          <input type="password" class="form-control" id="inputsurname">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputEmail4" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+                                          <div class="col-md-6">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                            </div>
+                                        <div class="col-md-6">
+                                          <label for="inputCity" class="form-label">City</label>
+                                          <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-md-4">
+                                          <label for="inputState" class="form-label">State</label>
+                                          <select id="inputState" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                          <label for="inputZip" class="form-label">Zip</label>
+                                          <input type="text" class="form-control" id="inputZip">
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                              Check me out
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <button type="submit" class="btn btn-primary">Sign in</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
 
                     <!-- STATISTICS -->
@@ -168,16 +225,16 @@
                                                 </li>
                                                 <li class="list-group-item">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                        <label class="form-check-label" for="flexCheckDefault2">
                                                         Kickoff nuove classi
                                                         </label>
                                                     </div>
                                                 </li>
                                                 <li class="list-group-item">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                        <label class="form-check-label" for="flexCheckDefault3b">
                                                         Kickoff nuove classi
                                                         </label>
                                                     </div>

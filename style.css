@@ -72,7 +72,9 @@ header li:not(:last-child) {
 .sidebar {
     width: 70px;
     height: 100%;
+    background-color: #051E34;
     background-image: url(./img/sidebar-bg.png);
+    color: white;
 }
 
 
@@ -121,10 +123,25 @@ header li:not(:last-child) {
     background-color: #165BBA;
 }
 
+.banner_items {
+    margin-top: 20px;
+}
+
+.ms_plus_btn {
+    align-self: start;
+}
+
+
 @media (min-width:768px) {
     .banner {
         flex-direction: row;
         justify-content: space-between;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner_items {
+        margin-top: 0px;
     }
 }
 
