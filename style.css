@@ -51,9 +51,6 @@ header li:not(:last-child) {
     pointer-events: none;
 }
 
-.ms_bell_btn:focus-visible {
-    border: none;
-}
 
 @media (min-width:992px) {
     header li:not(:last-child) {
@@ -88,7 +85,13 @@ header li:not(:last-child) {
 
 .sidebar i {
     width: 20px;
-    padding-right: 30px;
+    aspect-ratio: 1/1;
+    text-align: center;
+}
+
+.sidebar_list li:hover {
+    background-color: grey;
+    cursor: pointer;
 }
 
 @media (min-width:992px) {
@@ -131,11 +134,24 @@ header li:not(:last-child) {
     align-self: start;
 }
 
+.banner_boolean {
+    order: 1;
+}
+
+.banner_students {
+    order: 2;
+}
+
 
 @media (min-width:768px) {
     .banner {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .banner_boolean,
+    .banner_students {
+        order: 0;
     }
 }
 
@@ -168,3 +184,5 @@ tr > * {
     aspect-ratio: 1/1;
     color: white;
 }
+
+
