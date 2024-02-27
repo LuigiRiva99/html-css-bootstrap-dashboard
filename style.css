@@ -110,7 +110,10 @@ header li:not(:last-child) {
 
 
 /* DASHBOARD */
-
+.dashboard {
+    height: calc( 100vh - 70px );
+    overflow: auto;
+}
 
 /* BANNER */
 .banner {
