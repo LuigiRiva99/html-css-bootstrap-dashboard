@@ -51,6 +51,10 @@ header li:not(:last-child) {
     pointer-events: none;
 }
 
+.ms_bell_btn:focus-visible {
+    border: none;
+}
+
 @media (min-width:992px) {
     header li:not(:last-child) {
         display: block;
@@ -58,10 +62,6 @@ header li:not(:last-child) {
 }
 
 /* MAIN */
-
-.hero {
-    height: 100vh;
-}
 
 .content_window {
     height: 100%;
