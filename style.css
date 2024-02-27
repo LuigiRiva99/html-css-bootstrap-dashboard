@@ -2,6 +2,10 @@
 	--color-brand: #1B72E8;
 }
 
+body {
+	font-family: 'Open Sans';
+}
+
 /* RESET */
 
 img {
