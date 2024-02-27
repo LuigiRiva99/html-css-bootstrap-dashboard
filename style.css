@@ -131,6 +131,7 @@ header .nav_list > li:not(:last-child) {
     border-radius: 999px;
     color: white;
     background-color: #165BBA;
+    border-style: none;
 }
 
 .banner_items {
@@ -151,6 +152,11 @@ header .nav_list > li:not(:last-child) {
 
 #offcanvasRight {
     width: 100%;
+}
+
+.new_student {
+    display: flex;
+    align-items: center;
 }
 
 @media (min-width:768px) {
