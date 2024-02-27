@@ -149,6 +149,9 @@ header li:not(:last-child) {
     order: 2;
 }
 
+#offcanvasRight {
+    width: 100%;
+}
 
 @media (min-width:768px) {
     .banner {
@@ -165,6 +168,10 @@ header li:not(:last-child) {
 @media (min-width: 992px) {
     .banner_items {
         margin-top: 0px;
+    }
+
+    #offcanvasRight {
+        width: 40%;
     }
 }
 
