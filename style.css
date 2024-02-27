@@ -171,7 +171,7 @@ header li:not(:last-child) {
     }
 
     #offcanvasRight {
-        width: 40%;
+        width: 800px;
     }
 }
 
